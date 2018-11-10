@@ -143,7 +143,8 @@ Y = np.array([[0, 1, 1, 0]])
 #No. of training examples
 m = X.shape[1]
 
-#Test 2X1 vector to calculate the XOR of its elements
+#Test 2X1 vector to calculate the XOR of its elements. 
+#Try (0, 0), (0, 1), (1, 0), (1, 1)
 X_test = np.array([[1], [1]])
 
 #Set the hyperparameters
